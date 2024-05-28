@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab3.Controller.InputController">
+   <children>
+      <Button layoutX="197.0" layoutY="290.0" mnemonicParsing="false" onAction="#sendUsingControllerClasses" text="Send using Methods" />
+      <TextField fx:id="first_name" layoutX="233.0" layoutY="127.0" />
+      <TextField fx:id="last_name" layoutX="233.0" layoutY="173.0" />
+      <Text layoutX="210.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Asmens duomenys" />
+      <Label layoutX="166.0" layoutY="131.0" text="Vardas" />
+      <Label layoutX="159.0" layoutY="176.0" prefHeight="18.0" prefWidth="49.0" text="Pavardė" />
+      <Label layoutX="150.0" layoutY="221.0" text="Gimimo data" />
+      <Button layoutX="48.0" layoutY="290.0" mnemonicParsing="false" onAction="#sendUsingUserData" text="Send using &quot;UserData&quot;" />
+      <Button layoutX="339.0" layoutY="290.0" mnemonicParsing="false" onAction="#sendUsingSingleton" text="Send using Singleton" />
+      <DatePicker fx:id="birth_date" layoutX="233.0" layoutY="217.0" />
+   </children>
+</AnchorPane>
